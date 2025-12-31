@@ -3,7 +3,10 @@
 **Work When Your Mind Is Ready.**
 
 FocusSync is an AI-powered productivity companion that schedules tasks, manages notifications, and suggests micro-breaks based on your real-time cognitive energy levels.
+The screenshots are attached.
 
+![Desktop](screenshots/desktop.png)
+![Mobile](screenshots/mobile.png)
 
 ## 🚀 Key Features
 

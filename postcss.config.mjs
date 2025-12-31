@@ -5,3 +5,5 @@ const config = {
 };
 
 export default config;
+
+/** @type {import('postcss-load-config').Config} */

@@ -5,12 +5,13 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Zap } from "lucide-react";
 
 //Animated Counter function
-const AnimatedCounter = ({ end, duration = 2000 }) => {
+const AnimatedCounter = ({ end, duration = 2000 }:{ end: number, duration?: number }) => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        let startTime = null;
-        const animate = (currentTime) => {
+
+        let startTime: number | null = null;
+        const animate = (currentTime:number) => {
             if (!startTime) startTime = currentTime;
             const progress = Math.min((currentTime - startTime) / duration, 1);
 
